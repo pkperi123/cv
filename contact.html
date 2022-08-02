@@ -16,31 +16,36 @@
                 <td><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">pkperi1210@gmail.com</a></td>
             </tr>
         </table>
-    <form action="mailto:pkperi1210@gmail.com" method="post" enctype="text/plain">
-        <table cellspacing="10">
+    <form class action="mailto:pkperi1210@gmail.com" method="post" enctype="text/plain">
+        
+        <table>
             <tr>
                 <td><label>Name</label></td>
-                <td><input type="text"></td>
+                <td><input type="text" name="Name"></td>
             </tr>
             <tr>
                 <td><label>Phoneno</label></td>
-                <td><input type="tel" name="" id="10"></td>
+                <td><input type="tel" name="Phoneno"></td>
             </tr>
             <tr>
                 <td><label>Email</label></td>
-                <td><input type="email" name="" id=""></td>
+                <td><input type="email" name="Email"></td>
             </tr>
             <tr>
                 <td><label>Date of birth</label></td>
-                <td><input type="date" name="" id=""></td>
+                <td><input type="date" name="DOB"></td>
             </tr>
             <tr>
                 <td><label>Address</label></td>
-                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                <td><textarea name="add" cols="30" rows="10"></textarea> </td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>male<input type="radio" name="male"> female<input type="radio" name="female"> others<input type="radio" name="others"></td>
             </tr>
         </table>
-    <input type="submit">
-    <input type="reset">
+        <input type="reset">
+        <input type="submit">
     </form>
     </body>
 </html>
